@@ -1,0 +1,132 @@
+{
+    "asset" : {
+        "generator" : "Khronos glTF Blender I/O v1.5.17",
+        "version" : "2.0"
+    },
+    "scene" : 0,
+    "scenes" : [
+        {
+            "name" : "Scene",
+            "nodes" : [
+                1
+            ]
+        }
+    ],
+    "nodes" : [
+        {
+            "mesh" : 0,
+            "name" : "bounding-box",
+            "rotation" : [
+                0.7071068286895752,
+                0,
+                0,
+                0.7071067094802856
+            ]
+        },
+        {
+            "children" : [
+                0
+            ],
+            "name" : "wrapper",
+            "scale" : [
+                0.009999999776482582,
+                0.009999999776482582,
+                0.009999999776482582
+            ],
+            "translation" : [
+                0.48749998211860657,
+                0,
+                0
+            ]
+        }
+    ],
+    "materials" : [
+        {
+            "doubleSided" : true,
+            "name" : "diffuse_White",
+            "pbrMetallicRoughness" : {
+                "metallicFactor" : 0
+            }
+        }
+    ],
+    "meshes" : [
+        {
+            "name" : "bounding-box",
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "POSITION" : 0,
+                        "NORMAL" : 1,
+                        "TEXCOORD_0" : 2
+                    },
+                    "indices" : 3,
+                    "material" : 0
+                }
+            ]
+        }
+    ],
+    "accessors" : [
+        {
+            "bufferView" : 0,
+            "componentType" : 5126,
+            "count" : 24,
+            "max" : [
+                2.748215675354004,
+                11.5,
+                0
+            ],
+            "min" : [
+                -48.747745513916016,
+                -11.5,
+                -220
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 1,
+            "componentType" : 5126,
+            "count" : 24,
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 2,
+            "componentType" : 5126,
+            "count" : 24,
+            "type" : "VEC2"
+        },
+        {
+            "bufferView" : 3,
+            "componentType" : 5123,
+            "count" : 36,
+            "type" : "SCALAR"
+        }
+    ],
+    "bufferViews" : [
+        {
+            "buffer" : 0,
+            "byteLength" : 288,
+            "byteOffset" : 0
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 288,
+            "byteOffset" : 288
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 192,
+            "byteOffset" : 576
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 72,
+            "byteOffset" : 768
+        }
+    ],
+    "buffers" : [
+        {
+            "byteLength" : 840,
+            "uri" : "data:application/octet-stream;base64,sf1CwgAAOEEAAACAsf1CwgAAOMEAAACAxOIvQAAAOMEAAACAxOIvQAAAOEEAAACAxOIvQAAAOMEAAFzDxOIvQAAAOEEAAFzDxOIvQAAAOEEAAACAxOIvQAAAOMEAAACAsf1CwgAAOMEAAFzDxOIvQAAAOMEAAFzDxOIvQAAAOMEAAACAsf1CwgAAOMEAAACAsf1CwgAAOEEAAFzDsf1CwgAAOMEAAFzDsf1CwgAAOMEAAACAsf1CwgAAOEEAAACAxOIvQAAAOEEAAFzDsf1CwgAAOEEAAFzDsf1CwgAAOEEAAACAxOIvQAAAOEEAAACAsf1CwgAAOEEAAFzDxOIvQAAAOEEAAFzDxOIvQAAAOMEAAFzDsf1CwgAAOMEAAFzDAAAAAAAAAAAAAIA/AAAAAAAAAAAAAIA/AAAAAAAAAAAAAIA/AAAAAAAAAAAAAIA/AACAPwAAAAAAAACAAACAPwAAAAAAAACAAACAPwAAAAAAAACAAACAPwAAAAAAAACAAAAAAAAAgL8AAACAAAAAAAAAgL8AAACAAAAAAAAAgL8AAACAAAAAAAAAgL8AAACAAACAvwAAAAAAAACAAACAvwAAAAAAAACAAACAvwAAAAAAAACAAACAvwAAAAAAAACAAAAAAAAAgD8AAACAAAAAAAAAgD8AAACAAAAAAAAAgD8AAACAAAAAAAAAgD8AAACAAAAAAAAAAAAAAIC/AAAAAAAAAAAAAIC/AAAAAAAAAAAAAIC/AAAAAAAAAAAAAIC/7RvWPdITRD/tm1Q+0hNEP+2bVD4AAIA/7RvWPQAAgD/ylKA+AADAOu1b1T4AAMA67VvVPgAAgD/ylKA+AACAPyT6Jj8AAMA6UoZiPwAAwDpShmI/AACAPyT6Jj8AAIA/7RtWPgAAwDry1J8+AADAOvLUnz4AAIA/7RtWPgAAgD/tG9Y+AADAOiSaJj8AAMA6JJomPwAAgD/tG9Y+AACAPwAAAADSE0Q/AAAAAAAAgD/tG9M9AACAP+0b0z3SE0Q/AAABAAIAAAACAAMABAAFAAYABAAGAAcACAAJAAoACAAKAAsADAANAA4ADAAOAA8AEAARABIAEAASABMAFAAVABYAFAAWABcA"
+        }
+    ]
+}
